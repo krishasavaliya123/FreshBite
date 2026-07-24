@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBite - Online Food Ordering</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+    <div class="logo">
+        🍕 FreshBite
+    </div>
+
+    <nav>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#restaurants">Restaurants</a></li>
+
+            <li><a href="#menu">Menu</a></li>
+
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+
+            <li>
+
+                <a href="#cart">
+
+                    <i class="fa-solid fa-cart-shopping"></i>
+
+                    Cart
+
+                    <span id="cart-count">0</span>
+
+                </a>
+
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <h1>Delicious Food Delivered To Your Doorstep</h1>
+
+        <p>
+
+            Fresh meals from your favourite restaurants.
+
+        </p>
+
+        <a href="#menu" class="btn">
+
+            Order Now
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= RESTAURANTS ================= -->
+
+<section id="restaurants">
+
+    <h2 class="section-title">
+
+        Popular Restaurants
+
+    </h2>
+
+    <div class="restaurant-container">
+
+        <div class="restaurant-card">
+
+            <img src="images/restaurant1.jpg">
+
+            <h3>Pizza Palace</h3>
+
+            <p>Italian Cuisine</p>
+
+            <span>⭐4.8</span>
+
+        </div>
+
+        <div class="restaurant-card">
+
+            <img src="images/restaurant2.jpg">
+
+            <h3>Burger Hub</h3>
+
+            <p>Fast Food</p>
+
+            <span>⭐4.6</span>
+
+        </div>
+
+        <div class="restaurant-card">
+
+            <img src="images/restaurant3.jpg">
+
+            <h3>Pasta House</h3>
+
+            <p>Continental</p>
+
+            <span>⭐4.7</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= MENU ================= -->
+
+<section id="menu">
+
+    <h2 class="section-title">
+
+        Our Menu
+
+    </h2>
+
+    <div class="food-container">
+
+        <!-- JavaScript will load products -->
+
+    </div>
+
+</section>
+
+<!-- ================= CART ================= -->
+
+<section id="cart">
+
+    <h2 class="section-title">
+
+        Shopping Cart
+
+    </h2>
+
+    <div id="cartItems">
+
+        Your cart is empty.
+
+    </div>
+
+    <div class="cart-total">
+
+        <h3>
+
+            Total : ₹
+
+            <span id="total">
+
+                0
+
+            </span>
+
+        </h3>
+
+        <button class="checkout-btn">
+
+            Checkout
+
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section id="about">
+
+    <h2 class="section-title">
+
+        About FreshBite
+
+    </h2>
+
+    <p class="about-text">
+
+        FreshBite is an online food ordering platform that connects customers with their favourite restaurants. Browse menus, add delicious meals to your cart, and enjoy quick doorstep delivery with a simple and user-friendly experience.
+
+    </p>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact">
+
+    <h2 class="section-title">
+
+        Contact Us
+
+    </h2>
+
+    <form id="contactForm">
+
+        <input
+        type="text"
+        placeholder="Your Name"
+        required>
+
+        <input
+        type="email"
+        placeholder="Email Address"
+        required>
+
+        <textarea
+        placeholder="Your Message"
+        rows="5"
+        required></textarea>
+
+        <button>
+
+            Send Message
+
+        </button>
+
+    </form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <p>
+
+        © 2026 FreshBite.
+
+        All Rights Reserved.
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
