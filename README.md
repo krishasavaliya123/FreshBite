@@ -68,34 +68,25 @@ FreshBite/
 
 ### 🏠 Home Page
 
-(Add Screenshot Here)
+<img width="1897" height="916" alt="Screenshot (8)" src="https://github.com/user-attachments/assets/3c9a3098-d6e1-474d-ab9b-667f7f8a9f58" />
+
 
 ### 🍽 Menu Section
 
-(Add Screenshot Here)
+<img width="1900" height="901" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/5fd13457-56b8-461b-b998-5f41d893371b" />
+
 
 ### 🛒 Shopping Cart
 
-(Add Screenshot Here)
+<img width="1900" height="909" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/e0194541-4353-434a-ae32-b6c74760a8ba" />
 
-### 📱 Mobile View
-
-(Add Screenshot Here)
-
----
 
 
 ## 🌐 Live Demo
 
 **Website**
 
-https://your-live-website-link.com
-
----
-
-## 📹 Demo Video
-
-https://youtube.com/your-video-link
+https://krishasavaliya123.github.io/FreshBite/
 
 ---
 
